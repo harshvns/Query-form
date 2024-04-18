@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <form id="quoteForm">
+        <input type="hidden" name="access_key" value="c17315e7-f13d-4c15-893e-2a512ae2c6fe">
+
+        <div class="heading">
+            <h1>Get A Free Quote</h1>
+        </div>
+
+      
+            <div class="basic_details">
+                <div class="form">
+                    <h2>Your Details</h2>
+                    <label for="name">Name</label><br>
+                    <input type="text" class = "form-field" placeholder="Name" id="name" name="name"><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" class = "form-field" placeholder="Email" id="email" name="email"><br>
+                    <label for="phone">Phone</label><br>
+                    <input type="number" placeholder="Phone" id="phone" name="phone"><br>
+                    <label for="city">City</label><br>
+                    <input type="text" class = "form-field" placeholder="Name" id="city"><br>
+                    <label for="postcode">Postcode</label><br>
+                    <input type="text" class = "form-field" placeholder="Postcode" id="postcode"><br>
+                    <label for="suburb">Suburb</label><br>
+                    <input type="text" class = "form-field" placeholder="Suburb" id="suburb"><br>
+                    <label for="streetaddress">Street Address</label><br>
+                    <input type="text" class = "form-field" placeholder="Street Address" id="streetaddress"><br>
+                    <label for="service">What date would you like your service?</label><br>
+                    <input type="date" id="service"><br>
+                    <label for="time">Time</label><br>
+                    <select id="time" name="">
+                        <option value="select">Select</option>
+                        <option value="Morning">Morning</option>
+                        <option value="Afternoon">Afternoon</option>
+                        <option value="Ater_business">After business hour</option>
+                    </select><br>
+                    <label for="typeOfServices">Types of services</label><br>
+                    <select id="typeOfServices" name="" onchange="showAdditionalSection()">
+                        <option value="Select">Select</option>
+                        <option value="Builders Cleaning">Builders Cleaning</option>
+                        <option value="Commercial/Office Cleaning">Commercial/Office Cleaning</option>
+                        <option value="">House Cleaning (Weekly,Fortnightly or Monthly)</option>
+                        <option value="">House Cleaning (One off Clean)</option>
+                        <option value="">Spring Cleaning</option>
+                        <option value="">End Of Lease Cleaning</option>
+                        <option value="">End Of Lease Cleaning + Carpet Steam Cleaning</option>
+                        <option value="">Move in Sanitization Cleaning</option>
+                        <option value="">Pre-Sale Cleaning</option>
+                        <option value="">Carpet,Upholstery Steam and Leather Cleaning</option>
+                        <option value="">Window Cleaning</option>
+                        <option value="">Airbnb Cleaning</option>
+                        <option value="">Other</option>
+                        <!-- Add other options here -->
+                    </select>
+                    <div class="addOther"></div>
+                </div>
+            </div>
+            <div>
+                <div id="additional-section"></div>
+                <div class="basicSurvey">
+                    <label for="comment">Is there anything else you would like us to know?</label><br>
+                    <input type="text" class = "form-field" placeholder="Real Estate Agency Name, property condition etc." id="comment" name=""><br>
+                    <label for="How did you hear about us ?">How did you hear about us ?</label><br>
+                    <label for="Google">Google</label>
+                    <input type="radio" name="survey" value="default" id="Google" checked>
+                    <label for="Facebook">Facebook</label>
+                    <input type="radio" name="survey" id="Facebook">
+                    <label for="email">Email</label>
+                    <input type="radio" name="survey" id="email">
+                    <label for="Referal">Referal</label>
+                    <input type="radio" name="survey" id="Referal">
+                    <label for="Other">Other</label>
+                    <input type="radio" name="survey" id="Other">
+                    <!-- Add other radio buttons here -->
+                    <br>
+                    <label for="">How would you like us to be contacted?</label><br>
+                    <label for="">Phone</label>
+                    <input type="checkbox" name="Phone" id="Phone">
+                    <label for="">SMS</label>
+                    <input type="checkbox" name ="SMS" id="SMS">
+                    <label for="">Email</label>
+                    <input type="checkbox" name="Email" id="Email">
+                </div>
+            </div>
+        
+
+        <input type="checkbox">
+        <label for="">By Submitting this form, you agree with the Terms & Conditions and Privacy Policy of King Clean
+            (Pty) Ltd.</label>
+
+
+        <script src="./index.js"></script>
+        <script src="./frontendData.js"></script>
+        <br>
+
+
+        <button type="submit" id="submitData">Get A Free Quote</button>
+    </form>
+</body>
+</html>

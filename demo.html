@@ -1,0 +1,110 @@
+<form action="" id="quoteForm">
+  <div class="basic_details">
+    <div class="form">
+
+      <h2>Your Details</h2>
+      <label for="name">Name</label>
+      <br>
+      <input type="text" placeholder="Name" id="name">
+      <br>
+      <label for="email">Email</label>
+      <br>
+      <input type="text" placeholder="Email" id="email">
+      <br>
+      <label for="phone">Phone</label>
+      <br>
+      <input type="number" placeholder="Phone" id="phone">
+      <br>
+      <label for="city">City</label>
+      <br>
+      <input type="text" placeholder="Name" id="city">
+      <br>
+      <label for="postcode">Postcode</label>
+      <br>
+      <input type="text" placeholder="Postcode" id="postcode">
+      <br>
+      <label for="suburb">Suburb</label>
+      <br>
+      <input type="text" placeholder="Suburb" id="suburb">
+      <br>
+      <label for="streetaddress">Street Address</label>
+      <br>
+      <input type="text" placeholder="Street Address" id="streetaddress">
+      <br>
+      <label for="service">What date would you like your service?</label>
+      <br>
+      <input type="date" id="service">
+      <br>
+      <label for="">Time</label>
+      <br>
+      <select name="" id="time">
+
+        <option value="">Select</option>
+        <option value="">Morning</option>
+        <option value="">Afternoon</option>
+        <option value="">After business hour</option>
+
+      </select>
+      <br>
+      <label for="">Types of services</label>
+      <br>
+      <select name="" id="typeOfServices" onchange="showAdditionalSection()">
+
+        <option value="">Select</option>
+        <option value="">Builders Cleaning</option>
+        <option value="">Commercial/Office Cleaning</option>
+        <option value="">House Cleaning (Weekly,Fortnightly or Monthly)</option>
+        <option value="">House Cleaning (One off Clean)</option>
+        <option value="">Spring Cleaning</option>
+        <option value="">End Of Lease Cleaning</option>
+        <option value="">End Of Lease Cleaning + Carpet Steam Cleaning</option>
+        <option value="">Move in Sanitization Cleaning</option>
+        <option value="">Pre-Sale Cleaning</option>
+        <option value="">Carpet,Upholstery Steam and Leather Cleaning</option>
+        <option value="">Window Cleaning</option>
+        <option value="">Airbnb Cleaning</option>
+        <option value="">Other</option>
+
+
+      </select>
+      <div class="addOther">
+
+      </div>
+
+    </div>
+  </div>
+  <div>
+    <div id="additional-section">
+
+    </div>
+    <div class="basicSurvey">
+
+      <label for="comment">Is there anything else you would like us to know?</label>
+      <br>
+      <input type="text" placeholder="Real Estate Agency Name, property condition etc." id="comment">
+      <br>
+      <label for="How did you hear about us ?">How did you hear about us ?</label>
+      <br>
+      <label for="Google">Google</label>
+      <input type="radio" name="survey" value="default" id="Google" checked>
+      <label for="Facebook">Facebook</label>
+      <input type="radio" name="survey" id="Facebook">
+      <label for="email">Email</label>
+      <input type="radio" name="survey" id="email">
+      <label for="Referal">Referal</label>
+      <input type="radio" name="survey" id="Referal">
+      <label for="Other">Other</label>
+      <input type="radio" name="survey" id="Other">
+      <br>
+      <label for="">How would you like us to be contacted?</label>
+      <br>
+      <label for="">Phone</label>
+      <input type="checkbox" name="" id="">
+      <label for="">SMS</label>
+      <input type="checkbox">
+      <label for="">Email</label>
+      <input type="checkbox" name="" id="">
+
+
+    </div>
+</form>

@@ -1,0 +1,167 @@
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+ 
+
+
+ label{
+  margin-bottom:5px;
+  
+
+font-weight: 400;
+ }
+
+input{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding: 4px;
+
+}
+.hiddenSection{
+    /* width: 100%; */
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 200px;
+    border: 2px solid red;
+}
+.basicSurvey{
+    margin-top: 5px;    
+    border: 2px solid grey;
+}
+.basic_details{
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 2px solid grey;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.basicSurvey form{
+    margin-left: 40px;
+    padding: 10px;
+}
+.basicSurvey{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.form input{
+    width: 500px;
+    height: 27px;
+}
+#time{
+    height: 27px;
+    width: 500px;
+}
+#typeOfServices{
+    height: 27px;
+    width: 500px;
+}
+#comment{
+    height: 80px;
+    width: 1100px;
+} 
+form .basic_details{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_commercial {
+display: flex;
+justify-content: center;
+border: 2px solid grey;
+margin: 5px 30px 20px 30px;
+}
+
+.Commercial{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.spring_property{
+    display: flex;
+    justify-content: center;
+    border: 2px solid grey;
+    margin: 5px 30px 20px 30px;
+    padding-bottom: 20px;
+}
+.springProperty{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.extra_service{
+    display: flex;
+    justify-content: center;
+    border: 2px solid grey;
+    margin: 5px 30px 20px 30px;
+    padding-bottom: 20px;
+}
+.extraService{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.otherServices{
+    display: flex;
+    justify-content: center;
+    border: 2px solid grey;
+    margin: 5px 30px 20px 30px;
+    padding-bottom: 20px;
+}
+.other_service{
+    display: flex;
+    justify-content: center;
+    border: 2px solid grey;
+    margin: 5px 30px 20px 30px;
+    padding-bottom: 20px;
+}
+.ExtraServices{
+    border: 2px solid grey;
+    margin: 5px 30px 20px 30px;
+    padding-left: 10px;
+    
+}
+.Extra_Services{
+    display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  font-size: medium;
+}
+.OtherServices{
+    border: 2px solid grey;
+    margin: 5px 30px 20px 30px;
+    padding-left: 10px;
+
+}
+.Other_Services{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    font-size: medium;
+}
+.leather_property{
+    /* border: 2px solid grey;
+    display: flex;
+    align-items: center;
+    flex-direction: column; */
+    display: flex;
+    justify-content: center;
+    border: 2px solid grey;
+    margin: 5px 30px 20px 30px;
+    padding-bottom: 20px;
+}
+.leatherProperty{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#upholsteryProperty{
+    height: 27px;
+    width: 500px;
+}
